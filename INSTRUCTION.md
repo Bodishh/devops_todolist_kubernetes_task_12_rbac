@@ -1,6 +1,6 @@
 apply manifests
 kubectl apply -f security/rbac.yml
-kubectl apply -f .infrastructure/deployment.yml
+kubectl apply -f .infrastructure/app/deployment.yml
 
 Get into pod
 
