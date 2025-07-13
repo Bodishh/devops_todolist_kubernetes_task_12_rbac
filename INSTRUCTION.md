@@ -6,7 +6,7 @@ Get into pod
 
 kubectl get pods (for pod name)
 
-kubectl exec -it <pod-name> -- sh
+kubectl exec -it <pod name> -- sh
 
 Use curl
 curl -s --header "Authorization: Bearer $(cat /var/run/secrets/kubernetes.io/serviceaccount/token)" \
